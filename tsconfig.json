@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "lib/",
+    "target": "ES2019",
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "typedocOptions": {
+    "exclude": ["typings/test.ts"],
+    "excludeExternals": true,
+    "includeDeclarations": true,
+    "mode": "file",
+    "out": "telegraf-docs",
+    "readme": "docs/README.md",
+    "theme": "docs/theme/"
+  },
+  "include": ["src/"]
+}
